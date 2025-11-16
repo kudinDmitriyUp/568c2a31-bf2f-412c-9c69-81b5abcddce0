@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
@@ -11,7 +11,7 @@ import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Crown, DollarSign, MessageSquare, Scissors, Sparkles, Star, Trophy, Users } from "lucide-react";
+import { Crown, DollarSign, MessageSquare, Scissors, Sparkles, Star, Trophy, Users, Instagram, Facebook } from "lucide-react";
 
 export default function Home() {
   return (
@@ -265,11 +265,11 @@ export default function Home() {
               imageAlt: "Lorenzo Noya master barber portrait",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/lorenzobarbershop"
                 },
                 {
-                  icon: "Facebook",
+                  icon: Facebook,
                   url: "https://facebook.com/lorenzobarbershop"
                 }
               ]
