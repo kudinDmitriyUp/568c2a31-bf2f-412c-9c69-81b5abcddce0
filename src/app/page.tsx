@@ -39,7 +39,7 @@ export default function Home() {
       
       <div id="hero" data-section="hero">
         <HeroBillboardScroll
-          title="Master of the Italian Barbering Arts"
+          title="Master of the Italian Barbering"
           description="Experience the finest traditional barbering with Lorenzo Noya, where Italian craftsmanship meets modern sophistication in every cut, shave, and styling service."
           tag="Master Barber"
           tagIcon={Scissors}
